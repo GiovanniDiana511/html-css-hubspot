@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.top {
+    background-color: #f5f8fa;
+    height: 70px;
+    width: 100%;
+}
+
+.nav-inner {
+    background-color: darkgrey; /*da cancellare*/
+    width: 60%;
+    height: 70px;
+    margin: 0 auto;
+    line-height: 70px;
+}
+
+.nav-inner-left {
+    float: left;
+}
+
+.nav-inner-right {
+    float: right;
+}
+
+.log {
+    padding: 6px 12px;
+    border-color: darkorange;
+    border-radius: 2px;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: red; /*da cancellare*/
+}
+
+.header-inner {
+    height: 80px;
+    width: 60%;
+    background-color: orange; /*da cancellare*/
+    margin: 0 auto;
+    line-height: 80px;
+}
+
+#logo {
+    vertical-align: middle;
+}
+
+.nav-link {
+    float: right;
+}
+
+.nav-link li {
+    list-style: none;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+section {
+    background-color: lightblue;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.section-inner {
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.section-inner-left {
+    float: left;
+}
+
+.section-inner-right {
+    float: right;
+}
+
+main {
+    background-color: pink; /*da cancellare*/
+    height: 600px;
+    width: 100%;
+}
+
+.main-inner {
+    background-color: darkred; /*da cancellare*/
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content {
+
+    background-color: darkviolet; /*da cancellare*/
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
