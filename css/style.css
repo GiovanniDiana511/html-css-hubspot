@@ -15,6 +15,8 @@
     background-color: #f5f8fa;
     height: 70px;
     width: 100%;
+    position: fixed;
+    z-index: 2;
 }
 
 .nav-inner {
@@ -26,6 +28,14 @@
 
 .nav-inner-left {
     float: left;
+}
+
+.p1::before {
+    content: '';
+    background: url("https://cdn2.hubspot.net/hubfs/53/Logos/language-switcher-icon.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
 }
 
 .p1 {
@@ -231,13 +241,13 @@ main {
 
 .cards {
     background-color: #f5f8fa;
-    height: 1000px;
+    height: 1100px;
     width: 100%;
 }
 
 .cardtop {
     background-color: #ffffff;
-    width: 60%;
+    width: 50%;
     height: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -246,30 +256,36 @@ main {
 }
 
 .card1 {
-    width: 250px;
-    height: 670px;
-    background-color: grey;
+    width: 297px;
+    height: 620px;
+    background-color: #ffffff;
     float: left;
-    margin-left: 20%;
+    margin-left: 25%;
     border-radius: 5px;
+    text-align: center;
+    color: #33475b;
 }
 
 .card2 {
-    width: 250px;
-    height: 670px;
-    background-color: grey;
+    width: 297px;
+    height: 620px;
+    background-color: #ffffff;
     float: left;
     margin-left: 30px;
     border-radius: 5px;
+    text-align: center;
+    color: #33475b;
 }
 
 .card3 {
-    width: 250px;
-    height: 670px;
-    background-color: grey;
+    width: 297px;
+    height: 620px;
+    background-color: #ffffff;
     float: left;
     margin-left: 30px;
     border-radius: 5px;
+    text-align: center;
+    color: #33475b;
 }
 
 .info-top {
@@ -277,7 +293,7 @@ main {
     width: 250px;
     background-color: #ffffff;
     margin-top: 25px;
-    margin-left: 30px;
+    margin-left: 60px;
     position: absolute;
     float: left;
 }
@@ -290,7 +306,7 @@ main {
     margin-top: 5%;
 }
 
-.get2 {
+.get3 {
     padding: 14px 14px;
     background-color: #FF7A59;
     border-color: #FF7A59;
@@ -305,13 +321,13 @@ main {
     height: 250px;
     width: 470px;
     float: right;
-    background-color: #ffffff#ffffff;
+    background-color: #ffffff;
     position: relative;
     margin-top: 25px;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
-#CRM {
+#crm {
     color: #39475b;
     font-size: 24px;
     margin-top: 30px;
@@ -336,4 +352,172 @@ main {
     width: 70%;
     left: 28%;
     position: absolute;
+}
+
+.pop-list {
+    float: right;
+}
+
+.pop-list li {
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-right: 45px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #39475b;
+}
+
+.pop-list li::before {
+    content: '';
+    background: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg") no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.img-cards {
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.h-card {
+    font-size: 20px;
+}
+
+.p-card {
+    border-bottom-style: solid;
+    border-color: #e0e6ed;
+    border-width: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.p2-card {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cards-list li::before {
+    content: '';
+    background: url("https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg") no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.cards-list {
+    margin-top: 15px;
+    list-style: none;
+    text-align: left;
+    line-height: 1.8;
+    margin-left: 20px;
+}
+
+.start {
+    margin-top: 25px;
+    padding: 14px 14px;
+    background-color: #FF7A59;
+    border-color: #FF7A59;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.community {
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    height: 900px;
+}
+
+.community-inner {
+    width: 60%;
+    height: 600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h-comm {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding: 0 20%;
+}
+
+.p-comm {
+    color: white;
+    text-align: center;
+    font size: 10px;
+    padding: 0 20%;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.community-board {
+    height: 370px;
+    width: 100%;
+    margin-top: 65px;
+}
+
+.community-box {
+    height: 190px;
+    width: 285px;
+    float: left;
+    border-left: 1px solid white;
+    border-top: none;
+    border-bottom: 1px solid white;
+    border-right: none;
+    text-align: center;
+}
+
+.community-box:first-child {
+    border-left: none;
+}
+
+.community-box:nth-child(5) {
+    border-left: none;
+    border-bottom: none;
+}
+
+.community-box:nth-child(6) {
+    border-bottom: none;
+}
+
+.community-box:nth-child(7) {
+    border-bottom: none;
+}
+
+.community-box:last-child {
+    border-bottom: none;
+}
+
+.community-box img {
+    padding-top: 30px;
+}
+
+.community-box h2 {
+    color: white;
+    font-size: 38px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.community-box p {
+    color: white;
+    font-size: 13px;
 }
